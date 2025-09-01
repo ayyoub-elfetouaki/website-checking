@@ -1,0 +1,154 @@
+:root{
+  --glass: rgba(255,255,255,0.08);
+  --border: rgba(255,255,255,0.16);
+  --text: #eff3f8;
+  --muted:#c9d2dc;
+  --ok:#48d1a0;
+  --bad:#ff6a6a;
+}
+
+*{box-sizing:border-box;}
+html,body{height:100%;}
+body{
+  margin:0;
+  color:var(--text);
+  font-family: system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+
+  background-image: url('/static/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*styling the layout*/
+.page{padding:32px;}
+.page__header{
+  display:flex; 
+  align-items:center; 
+  justify-content:space-between;
+  margin-bottom:22px;
+}
+h1{margin:0; font-weight:700; letter-spacing:.2px;}
+
+.grid{
+  display:grid;
+  grid-template-columns: 2fr 1.1fr;
+  gap:24px;
+}
+
+/* Cards / glassmorphism */
+.card{
+  background: var(--glass);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px;
+  backdrop-filter: blur(6px);
+}
+.card__title{margin:0 0 12px 0; font-size:16px; opacity:.9;}
+
+.sidebar .sticky{ position: sticky; top: 24px; margin-bottom: 24px; }
+
+/* Space for score below screenshot */
+#score-card {
+  margin-top: 24px; /* Add vertical space */
+}
+
+/* Table */
+.kv{width:100%; border-collapse: collapse;}
+.kv th, .kv td{
+  border-bottom: 1px solid var(--border);
+  padding: 10px 12px;
+  vertical-align: top;
+}
+.kv th{width: 220px; text-align: left; opacity:.92;}
+
+/* Screenshot */
+.screenshot{
+  width:100%; height:auto; display:block; border-radius: 12px;
+  margin-bottom: 24px; /* extra space below screenshot */
+}
+
+/* Badges & alerts */
+.badge{
+  padding:3px 8px; border-radius: 999px; font-size: 13px;
+  border:1px solid var(--border);
+}
+.badge--ok{ background: rgba(72,209,160,.15); }
+.badge--bad{ background: rgba(255,106,106,.18); }
+
+.alert--error{
+  background: rgba(255,106,106,.15);
+  border:1px solid rgba(255,106,106,.45);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.issues{ margin:8px 0 0 0; padding-left: 20px; }
+.muted{ color: var(--muted); }
+
+/* Score ring */
+/* Score container (transparent background, circular shape) */
+.score-container {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 8px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 0 0 2px var(--border) inset;
+  background: transparent;
+  margin: auto;
+}
+
+/* The filling part (animated from bottom up) */
+.score-fill {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: var(--ok);
+  transition: height 1.5s ease-out, background-color 0.5s ease;
+  z-index: 1;
+}
+
+/* Score text centered */
+.score-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  display: flex;
+  align-items: baseline;
+}
+.score-text span {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+.score-text small {
+  opacity: 0.85;
+  margin-left: 4px;
+  color: #fff;
+}
+
+
+/* Buttons */
+.btn{
+  background: var(--glass);
+  border: 1px solid var(--border);
+  padding: 10px 14px;
+  border-radius: 10px;
+  color: var(--text);
+  text-decoration: none;
+  backdrop-filter: blur(6px);
+}
+.btn:hover{ background: rgba(255,255,255,.12); }
+
+/* Responsive */
+@media (max-width: 900px){
+  .grid{ grid-template-columns: 1fr; }
+  .sidebar .sticky{ position: static; }
+}
+

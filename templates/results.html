@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Checker Results</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='results.css') }}">
+</head>
+<body>
+  <div class="page">
+    <header class="page__header">
+      <h1>Website Checker Results</h1>
+      <a class="btn" href="{{ url_for('index') }}">Check another website</a>
+    </header>
+
+    {% if error %}
+      <div class="alert alert--error">Error: {{ error }}</div>
+    {% elif results %}
+      <div class="grid">
+        <!-- Left: results table -->
+        <section class="card">
+          <table class="kv">
+            <tbody>
+              <tr><th>URL</th><td>{{ results.url or 'N/A' }}</td></tr>
+              <tr><th>Status</th><td>{{ results.status_code }} - {{ results.status_message }}</td></tr>
+              <tr><th>Load Time</th><td>{{ results.load_time }} s</td></tr>
+              <tr><th>Page Size</th><td>{{ results.page_size_kb }} KB</td></tr>
+              <tr><th>Performance</th><td>{{ results.performance }}</td></tr>
+              <tr><th>Content-Type</th><td>{{ results.content_type }}</td></tr>
+              <tr><th>Server</th><td>{{ results.server }}</td></tr>
+              <tr><th>Encoding</th><td>{{ results.content_encoding }}</td></tr>
+              <tr><th>Cache-Control</th><td>{{ results.cache_control }}</td></tr>
+              {% if results.was_redirected is not none %}
+                <tr><th>Redirected</th><td>{{ results.was_redirected }}</td></tr>
+              {% endif %}
+              {% if results.ssl_expiry_date %}
+                <tr><th>SSL Expiry</th>
+                    <td>{{ results.ssl_expiry_date }} ({{ results.ssl_days_left }} days left)</td></tr>
+              {% endif %}
+              <tr><th>Broken Links</th><td>{{ results.broken_links_count }}</td></tr>
+              <tr>
+                <th>Mobile-Friendly</th>
+                <td>
+                  {% if results.mobile_friendly == 'Yes' %}
+                    <span class="badge badge--ok">Yes</span>
+                  {% elif results.mobile_friendly == 'No' %}
+                    <span class="badge badge--bad">No</span>
+                    {% if results.mobile_issues %}
+                      <ul class="issues">
+                        {% for issue in results.mobile_issues %}
+                          <li>{{ issue }}</li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  {% else %}
+                    <span class="muted">Unavailable</span>
+                  {% endif %}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- Right: sidebar with screenshot -->
+        <aside class="sidebar">
+          {% if results.screenshot %}
+            <div class="card sticky">
+              <h3 class="card__title">Screenshot</h3>
+              <img class="screenshot"
+                   src="{{ url_for('static', filename=results.screenshot) }}"
+                   alt="Website Screenshot">
+            </div>
+          {% endif %}
+
+          {% if results.score %}
+            <div class="card">
+              <h3 class="card__title">Score</h3>
+              <div class="score-container" data-score="{{ results.score }}">
+            <div class="score-fill"></div>
+            <div class="score-text">
+              <span class="score-number">0</span><small>/100</small>
+            </div>
+            </div>
+
+            </div>
+          {% endif %}
+        </aside>
+      </div>
+    {% else %}
+      <div class="muted">No results to display.</div>
+    {% endif %}
+  </div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const container = document.querySelector(".score-container");
+  const fill = container.querySelector(".score-fill");
+  const numberEl = container.querySelector(".score-number");
+  const score = parseInt(container.dataset.score, 10);
+
+  // Determine color based on score
+  function getColor(score) {
+    if (score < 40) return "#ff4d4d";
+    if (score < 70) return "#ffcc00";
+    return "#48d1a0";
+  }
+
+  // Animate height from 0% to score%
+  setTimeout(() => {
+    fill.style.height = score + "%";
+    fill.style.backgroundColor = getColor(score);
+  }, 100);
+
+  // Animate number count up
+  let current = 0;
+  const step = Math.ceil(score / 30);
+  const interval = setInterval(() => {
+    current += step;
+    if (current >= score) {
+      current = score;
+      clearInterval(interval);
+    }
+    numberEl.textContent = current;
+  }, 30);
+});
+</script>
+
+</body>
+</html>
+

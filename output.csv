@@ -1,0 +1,38 @@
+https://realpython.com/python-requests/,200,OK,0.77,✅ Good,2025-09-17,47
+https://www.saudia.com/,200,OK,0.17,✅ Good,2025-11-08,99
+https://www.w3schools.com/python/numpy/numpy_intro.asp,200,OK,0.1,✅ Good,2025-08-31,29,N/A
+https://www.amazon.com/ref=nav_logo,503,Service Unavailable,0.26,✅ Good,2026-06-29,332,2.61
+https://www.amazon.com/ref=nav_logo,503,Service Unavailable,0.26,✅ Good,2026-06-29,332,N/A
+https://www.amazon.com/ref=nav_logo,503,Service Unavailable,0.24,✅ Good,2026-06-29,332,2.61
+https://www.jumia.ma/,200,OK,1.57 s,✅ Good,2025-10-27,87 days,593.38 KB
+https://www.elitetravels-sports.com/,200,OK,0.56 s,✅ Good,2025-09-28,58 days,312.77 KB
+https://www.karabuk.edu.tr/en,200,OK,1.0 s,✅ Good,2026-04-05,247 days,119.91 KB
+https://www.madeintext.com/bullet-point/,200,OK,0.79 s,Good,2025-10-07,64 days,92.73 KB KB,text/html; charset=UTF-8,cloudflare,gzip,
+https://www.elitetravels-sports.com/,200,OK,0.54 s,Good,2025-09-28,55 days,312.74 KB KB,text/html; charset=UTF-8,nginx/1.27.4,gzip,max-age=0
+https://www.w3schools.com/python/numpy/numpy_intro.asp,200,OK,0.11 s,Good,2025-08-31,26 days,331.86 KB KB,text/html,,gzip,"public, max-age=7737"
+https://www.youtube.com/,200,OK,0.27 s,Good,2025-09-29,55 days,655.79 KB KB,text/html; charset=utf-8,ESF,gzip,"no-cache, no-store, max-age=0, must-revalidate"
+http://karabuk.edu.tr/en,200,OK,0.71 s,Good,2026-04-05,244 days,119.6 KB KB,text/html; charset=utf-8,Microsoft-IIS/10.0,gzip,private
+http://karabuk.edu.tr/en,200,OK,0.74 s,Good,2026-04-05,244 days,119.6 KB KB,text/html; charset=utf-8,Microsoft-IIS/10.0,gzip,private
+https://www.w3schools.com/,200,OK,0.14 s,Good,2025-08-31,25 days,391.75 KB KB,text/html,,gzip,"public, max-age=12855"
+http://karabuk.edu.tr/en,200,OK,0.72 s,Good,2026-04-05,243 days,119.95 KB KB,text/html; charset=utf-8,Microsoft-IIS/10.0,gzip,private
+https://obs.karabuk.edu.tr/oibs/std/login.aspx,200,OK,0.58 s,Good,2026-04-05,243 days,12.11 KB KB,text/html; charset=utf-8,,,private
+https://www.geeksforgeeks.org/,200,OK,0.11 s,Good,2026-06-16,314 days,256.62 KB KB,text/html; charset=utf-8,nginx,gzip,"s-maxage=64656, max-age=0"
+https://www.imdb.com/,403,Forbidden,0.24 s,Good,2026-06-17,315 days,0.12 KB,text/html,Server,N/A,N/A
+https://www.geeksforgeeks.org/,200,OK,0.1 s,Good,2026-06-16,313 days,256.62 KB,text/html; charset=utf-8,nginx,gzip,"s-maxage=64656, max-age=0"
+https://www.karabuk.edu.tr/en,200,OK,0.79 s,Good,2026-04-05,242 days,120.76 KB,text/html; charset=utf-8,Microsoft-IIS/10.0,gzip,private
+https://www.geeksforgeeks.org/,200,OK,0.12 s,Good,2026-06-16,313 days,256.62 KB,text/html; charset=utf-8,nginx,gzip,"s-maxage=64656, max-age=0"
+https://www.geeksforgeeks.org/,200,OK,0.11 s,Good,2026-06-16,313 days,256.62 KB,text/html; charset=utf-8,nginx,gzip,"s-maxage=64656, max-age=0"
+https://www.geeksforgeeks.org/python/python-data-structures/,200,OK,0.13 s,Good,2026-06-16,313 days,471.7 KB,text/html; charset=UTF-8,Apache,gzip,"max-age=3, must-revalidate"
+https://www.google.com/,200,OK,0.23 s,Good,2025-09-29,53 days,18.33 KB,text/html; charset=ISO-8859-1,gws,gzip,"private, max-age=0",False,,
+https://www.w3schools.com/python/python_dsa_linkedlists.asp,200,OK,0.08 s,Good,2025-08-31,24 days,391.98 KB,text/html,N/A,gzip,"public, max-age=5446",False,,
+https://www.google.com,200,OK,0.25 s,Good,2025-09-29,52 days,18.21 KB,text/html; charset=ISO-8859-1,gws,gzip,"private, max-age=0",False,,
+https://leetcode.com/,403,Forbidden,0.15 s,Good,2025-09-20,44 days,6.65 KB,text/html; charset=UTF-8,cloudflare,gzip,"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",False,,
+https://leetcode.com/,403,Forbidden,0.17 s,Good,2025-09-20,44 days,6.67 KB,text/html; charset=UTF-8,cloudflare,gzip,"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",False,,
+https://www.karabuk.edu.tr/en,200,OK,0.75 s,Good,2026-04-05,241 days,120.76 KB,text/html; charset=utf-8,Microsoft-IIS/10.0,gzip,private,False,,
+https://www.google.com,200,OK,0.23 s,Good,2025-09-29,52 days,18.3 KB,text/html; charset=ISO-8859-1,gws,gzip,"private, max-age=0",False,,
+https://www.karabuk.edu.tr/en,200,OK,0.72 s,Good,2026-04-05,241 days,120.76 KB,text/html; charset=utf-8,Microsoft-IIS/10.0,gzip,private,False,,
+https://leetcode.com/,403,Forbidden,0.16 s,Good,2025-09-20,44 days,6.67 KB,text/html; charset=UTF-8,cloudflare,gzip,"private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",False,,
+https://www.elitetravels-sports.com/,200,OK,0.29 s,Good,2025-09-28,52 days,312.67 KB,text/html; charset=UTF-8,nginx/1.27.4,gzip,max-age=0,False,,
+https://www.google.com,200,OK,0.26 s,Good,2025-09-29,52 days,18.37 KB,text/html; charset=ISO-8859-1,gws,gzip,"private, max-age=0",False,,
+https://www.google.com,200,OK,3.05 s,Slow,2025-09-29,51 days,18.37 KB,text/html; charset=ISO-8859-1,gws,gzip,"private, max-age=0",False,,
+https://www.google.com/,200,OK,0.35 s,Good,N/A,63 days,17.61 KB,text/html; charset=ISO-8859-1,gws,gzip,"private, max-age=0",False,,

@@ -1,0 +1,85 @@
+2025-07-29 11:31:42,432 - ERROR - Error while checking google.com: name 'requests' is not defined
+2025-07-29 11:41:57,555 - ERROR - Error while checking https://www.youtube.com/: name 'requests' is not defined
+2025-07-29 11:44:27,621 - INFO - Checked URL https://www.youtube.com/ - Status: 200
+2025-07-29 13:25:17,443 - INFO - Checked URL https://realpython.com/ - Status: 200
+2025-07-29 13:33:25,478 - INFO - Checked URL https://www.w3schools.com/ - Status: 200
+2025-08-01 10:33:40,770 - INFO - https://www.saudia.com/ checked successfully
+2025-08-01 10:33:41,565 - ERROR - Unhandled error: 'charmap' codec can't encode character '\u2705' in position 33: character maps to <undefined>
+2025-08-01 10:34:42,631 - INFO - https://www.geeksforgeeks.org/dsa/analysis-algorithms-big-o-analysis/ checked successfully
+2025-08-01 10:36:42,110 - ERROR - Unhandled error: 'charmap' codec can't encode character '\u2705' in position 79: character maps to <undefined>
+2025-08-01 10:38:55,925 - INFO - https://realpython.com/python-requests/ checked successfully
+2025-08-01 10:40:22,819 - ERROR - Unhandled error: 'charmap' codec can't encode character '\u2705' in position 49: character maps to <undefined>
+2025-08-01 10:52:14,312 - ERROR - Error checking https://& C:/Users/HP/AppData/Local/Microsoft/WindowsApps/python3.13.exe c:/Users/HP/Desktop/web-checking/web-performance/main.py: HTTPSConnectionPool(host='&%20c', port=443): Max retries exceeded with url: /Users/HP/AppData/Local/Microsoft/WindowsApps/python3.13.exe%20c:/Users/HP/Desktop/web-checking/web-performance/main.py (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001DBC210AA50>: Failed to resolve '&%20c' ([Errno 11001] getaddrinfo failed)"))
+2025-08-01 11:01:50,098 - INFO - https://realpython.com/python-requests/ checked successfully
+2025-08-01 11:01:50,283 - ERROR - Unhandled error: name 'status_code' is not defined
+2025-08-01 11:04:32,776 - INFO - https://realpython.com/python-requests/ checked successfully
+2025-08-01 11:04:33,000 - ERROR - Unhandled error: name 'code' is not defined
+2025-08-01 11:10:22,139 - INFO - https://realpython.com/python-requests/ checked successfully
+2025-08-01 11:10:22,347 - ERROR - Unhandled error: 'function' object has no attribute 'code'
+2025-08-01 11:17:42,168 - INFO - https://realpython.com/python-requests/ checked successfully
+2025-08-01 11:24:48,769 - INFO - https://www.saudia.com/ checked successfully
+2025-08-01 11:33:29,216 - INFO - https://www.w3schools.com/python/numpy/numpy_intro.asp checked successfully
+2025-08-01 11:39:35,639 - INFO - https://www.amazon.com/ref=nav_logo checked successfully
+2025-08-01 11:41:20,257 - INFO - https://www.amazon.com/ref=nav_logo checked successfully
+2025-08-01 11:42:46,620 - INFO - https://www.amazon.com/ref=nav_logo checked successfully
+2025-08-01 11:43:29,970 - INFO - https://www.amazon.com/ref=nav_logo checked successfully
+2025-08-01 11:46:21,752 - INFO - https://www.jumia.ma/ checked successfully
+2025-08-01 11:48:51,374 - INFO - https://www.elitetravels-sports.com/ checked successfully
+2025-08-01 12:40:25,611 - INFO - https://www.karabuk.edu.tr/en checked successfully
+2025-08-04 11:01:50,216 - ERROR - Unhandled error: name 'content_type' is not defined
+2025-08-04 11:20:14,749 - ERROR - Unhandled error: argument of type 'NoneType' is not iterable
+2025-08-04 11:22:38,608 - ERROR - Unhandled error: 'response_time'
+2025-08-04 11:28:07,234 - INFO - https://www.w3schools.com/python/numpy/numpy_intro.asp checked successfully
+2025-08-04 11:34:40,865 - INFO - https://mkvking.forum/ checked successfully
+2025-08-04 11:38:17,092 - ERROR - Error checking https://& C:/Users/HP/AppData/Local/Microsoft/WindowsApps/python3.13.exe c:/Users/HP/Desktop/web-checking/web-performance/main.py: HTTPSConnectionPool(host='&%20c', port=443): Max retries exceeded with url: /Users/HP/AppData/Local/Microsoft/WindowsApps/python3.13.exe%20c:/Users/HP/Desktop/web-checking/web-performance/main.py (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001EB2D206A50>: Failed to resolve '&%20c' ([Errno 11001] getaddrinfo failed)"))
+2025-08-04 11:39:06,745 - INFO - https://www.madeintext.com/bullet-point/ checked successfully
+2025-08-04 11:41:15,034 - INFO - https://www.elitetravels-sports.com/ checked successfully
+2025-08-04 11:49:37,290 - INFO - https://www.w3schools.com/python/numpy/numpy_intro.asp checked successfully
+2025-08-04 11:59:28,536 - INFO - https://www.youtube.com/ checked successfully
+2025-08-04 13:32:58,215 - INFO - http://karabuk.edu.tr/en checked successfully
+2025-08-04 13:47:14,736 - INFO - http://karabuk.edu.tr/en checked successfully
+2025-08-05 10:50:02,990 - ERROR - Unhandled error: 'Options' object has no attribute 'add_arguments'
+2025-08-05 10:53:16,498 - INFO - https://www.w3schools.com/ checked successfully
+2025-08-05 10:55:49,563 - INFO - http://karabuk.edu.tr/en checked successfully
+2025-08-05 11:00:51,484 - INFO - https://obs.karabuk.edu.tr/oibs/std/login.aspx checked successfully
+2025-08-06 10:51:07,677 - INFO - https://www.geeksforgeeks.org/ checked successfully
+2025-08-06 11:03:45,965 - INFO - https://www.imdb.com/ checked successfully
+2025-08-06 11:03:46,166 - ERROR - Unhandled error: 'response_time'
+2025-08-06 11:05:07,714 - INFO - https://www.imdb.com/ checked successfully
+2025-08-06 11:13:10,652 - ERROR - Unhandled error: 'response_time'
+2025-08-06 11:13:58,080 - ERROR - Unhandled error: 'response_time'
+2025-08-06 11:14:22,372 - INFO - https://www.geeksforgeeks.org/ checked successfully
+2025-08-06 11:18:34,896 - INFO - https://www.karabuk.edu.tr/en checked successfully
+2025-08-06 11:25:20,399 - INFO - https://www.geeksforgeeks.org/ checked successfully
+2025-08-06 11:26:29,262 - INFO - https://www.geeksforgeeks.org/ checked successfully
+2025-08-06 11:43:30,294 - INFO - https://www.geeksforgeeks.org/python/python-data-structures/ checked successfully
+2025-08-06 11:43:30,533 - ERROR - Unhandled error: 'bool' object has no attribute 'history'
+2025-08-06 11:44:28,254 - INFO - https://www.geeksforgeeks.org/python/python-data-structures/ checked successfully
+2025-08-06 12:22:00,287 - INFO - https://www.google.com/ checked successfully
+2025-08-06 14:31:32,075 - INFO - https://www.w3schools.com/python/python_dsa_linkedlists.asp checked successfully
+2025-08-07 10:14:21,001 - INFO - https://www.google.com checked successfully
+2025-08-07 11:41:11,949 - INFO - https://leetcode.com/ checked successfully
+2025-08-07 11:42:32,770 - INFO - https://leetcode.com/ checked successfully
+2025-08-07 13:42:28,076 - INFO - https://www.karabuk.edu.tr/en checked successfully
+2025-08-07 13:49:36,014 - INFO - https://www.google.com checked successfully
+2025-08-07 13:51:05,139 - INFO - https://www.karabuk.edu.tr/en checked successfully
+2025-08-07 13:57:33,221 - INFO - https://leetcode.com/ checked successfully
+2025-08-07 13:58:33,488 - INFO - https://www.elitetravels-sports.com/ checked successfully
+2025-08-07 14:50:52,595 - INFO - https://www.google.com checked successfully
+2025-08-08 21:18:43,300 - INFO - https://www.google.com checked successfully
+2025-09-01 13:36:28,575 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-01 13:36:28,577 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-01 13:36:28,625 - INFO -  * Restarting with stat
+2025-09-01 13:36:30,541 - WARNING -  * Debugger is active!
+2025-09-01 13:36:30,583 - INFO -  * Debugger PIN: 134-646-581
+2025-09-01 13:36:34,780 - INFO - 127.0.0.1 - - [01/Sep/2025 13:36:34] "GET / HTTP/1.1" 200 -
+2025-09-01 13:36:34,947 - INFO - 127.0.0.1 - - [01/Sep/2025 13:36:34] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2025-09-01 13:36:36,715 - INFO - 127.0.0.1 - - [01/Sep/2025 13:36:36] "GET /static/images/background.jpg HTTP/1.1" 200 -
+2025-09-01 13:36:42,972 - INFO - Starting check for: https://www.google.com/
+2025-09-01 13:37:32,630 - ERROR - Broken links check failed: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+2025-09-01 13:37:52,570 - INFO - 127.0.0.1 - - [01/Sep/2025 13:37:52] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-09-01 13:37:52,694 - INFO - 127.0.0.1 - - [01/Sep/2025 13:37:52] "GET /results HTTP/1.1" 200 -
+2025-09-01 13:37:52,814 - INFO - 127.0.0.1 - - [01/Sep/2025 13:37:52] "GET /static/results.css HTTP/1.1" 200 -
+2025-09-01 13:37:52,832 - INFO - 127.0.0.1 - - [01/Sep/2025 13:37:52] "GET /static/screenshots/screenshot_www_google_com_20250901133742.png HTTP/1.1" 200 -
+2025-09-01 13:37:53,046 - INFO - 127.0.0.1 - - [01/Sep/2025 13:37:53] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
